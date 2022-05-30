@@ -7,10 +7,12 @@ const bottomRight = css(isIOS ? {
   position: 'fixed',
   bottom: 50,
   right: 0,
+  zIndex: 1,
 } : {
   position: 'fixed',
   bottom: 0,
   right: 0,
+  zIndex: 1,
 }).toString();
 
 const arrowButton = css({
