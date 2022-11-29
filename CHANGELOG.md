@@ -8,4 +8,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [1.0.0] - 2022-05-27
 ### Added
-* Initial release
+* A "Back to top" button is displayed on all CMS pages.

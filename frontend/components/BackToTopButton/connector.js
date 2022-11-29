@@ -4,10 +4,10 @@ import { isWhitelistedRoute } from '../../selectors';
 /**
  * Maps state to props.
  * @param {Object} state State.
- * @returns {Object}
+ * @returns {bool} Route is on whitelist
  */
 const mapStateToProps = state => ({
-    isVisible: isWhitelistedRoute(state),
+  isVisible: isWhitelistedRoute(state),
 });
 
 export default connect(mapStateToProps);

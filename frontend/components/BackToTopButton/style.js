@@ -5,7 +5,7 @@ const isIOS = themeName.includes('ios');
 
 const bottomRight = css(isIOS ? {
   position: 'fixed',
-  bottom: 50,
+  bottom: 'calc(var(--tabbar-height) + var(--safe-area-inset-bottom))',
   right: 0,
   zIndex: 1,
 } : {
