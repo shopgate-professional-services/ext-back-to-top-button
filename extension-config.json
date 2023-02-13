@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "id": "@shopgate-project/back-to-top-button",
+  "components": [
+    {
+      "type": "portals",
+      "target": [
+        "view.content.after"
+      ],
+      "path": "frontend/components/BackToTopButton",
+      "id": "BackToTopButton"
+    }
+  ],
+  "configuration": {
+    "buttonWhitelist": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": [
+        "/page/:pageId"
+      ],
+      "params": {
+        "label": "Path patterns for whitelisting",
+        "type": "json"
+      }
+    }
+  }
+}
